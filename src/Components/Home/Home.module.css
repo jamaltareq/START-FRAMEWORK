@@ -1,0 +1,32 @@
+.hight_span{
+    height: 5px !important;
+    width: 51px !important;
+    background-color: white;
+}
+.hight_start{
+    width: 250px;
+    padding: 2px;
+
+}
+.bg_background{
+    background-color: #1abc9c;
+}
+.bg_portofolio{
+    background-color: #f3f3f38d;
+}
+.layar{
+    opacity: 0;
+    transition: .5s;
+}
+.item:hover .layar {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.top_edite{
+    top : 0px !important;
+    z-index: 11500;
+}
+.color_edite{
+    background: #00000093;
+}
